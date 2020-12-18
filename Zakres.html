@@ -9,8 +9,10 @@
         let a = parseInt(prompt('Podaj pierwszą liczbę', '1337'));
         let b = parseInt(prompt('Podaj drugą liczbę', '2115'));
         if (!isNaN(a) || !isNaN(b)) {
-            if (b < a) {
-                alert('Ża duża pierwsza liczba od durgiej')
+            if (a > b) {
+                for (a; a >= b; a--) {
+                    document.write(a + '<br>')
+                }
             } else {
                 for (a; a <= b; a++) {
                     document.write(a + '<br>')
