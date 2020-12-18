@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(241, 165, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* gorna czesc strony */
+
+#top {
+    border: small solid rgb(10, 0, 0);
+}
+
+#banner {
+    height: 35%;
+    width: 100%;
+}
+
+
+/* srodkowa czesc strony */
+
+.menu {
+    float: left;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    height: 60%;
+    vertical-align: middle;
+}
+
+.content {
+    float: left;
+    background-color: rgb(255, 0, 0);
+    width: 60%;
+    height: 60%;
+}
+
+#choose {
+    margin: 30px;
+}
+
+#napis {
+    margin-left: 120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1cm;
+}
+
+#frame {
+    height: 90%;
+    width: 90%;
+    margin-top: 25px;
+}
+
+li a {
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background: rgb(226, 226, 226);
+    padding: 8px 20px;
+    width: 90%;
+    margin: 1px;
+    border-radius: 100px;
+}
+
+#change {
+    transition-duration: 0.25s;
+    width: 45%;
+    filter: blur(10px);
+}
+
+#change:hover {
+    background: #FFC000;
+    background-color: rgb(255, 0, 0);
+    filter: blur(0px);
+    transition-duration: 0.25s;
+    width: 90%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}

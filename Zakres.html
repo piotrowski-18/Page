@@ -1,0 +1,27 @@
+<html lang="pl-PL">
+
+<head>
+    <meta name="utf-8">
+    <title> Egzamin </title>
+    <link rel="stylesheet" href="css.css">
+    <script>
+        ;
+        let a = parseInt(prompt('Podaj pierwszą liczbę', '1337'));
+        let b = parseInt(prompt('Podaj drugą liczbę', '2115'));
+        if (!isNaN(a) || !isNaN(b)) {
+            if (b < a) {
+                alert('Ża duża pierwsza liczba od durgiej')
+            } else {
+                for (a; a <= b; a++) {
+                    document.write(a + '<br>')
+                }
+            }
+        } else {
+            document.write('a lub b nie jest liczbą')
+        };
+    </script>
+</head>
+
+<body></body>
+
+</html>
